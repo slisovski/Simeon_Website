@@ -29,18 +29,18 @@ social:
 - icon: paper-plane
   icon_pack: fas
   link: "mailto:simeon.lisovski@gmail.com"
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/S_Lisovski
-- icon: github
-  icon_pack: fab
-  link: https://github.com/slisovski
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0002-6399-0035
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=3y8AwdsAAAAJ&hl=en&oi=ao
+- icon: github
+  icon_pack: fab
+  link: https://github.com/slisovski
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/S_Lisovski
 superuser: true
 ---
 

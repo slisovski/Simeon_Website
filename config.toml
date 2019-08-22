@@ -22,7 +22,6 @@ googleAnalytics = ""
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 
-
 ############################
 ## Advanced options below ##
 ############################
@@ -43,11 +42,12 @@ enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  custom_css = ['SL_aboutme.css']
+  custom_js  = []
 
 [params]
-  color_theme = "fliptheme"
-  font = "flipfont"
-
   # Your details.
   name = "Simeon Lisovski"
   role = "Postdoctoral Researcher"
@@ -65,58 +65,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   # skype = "echo123"
   # telegram = ""
   
-logo = "logo.png"  
-  
-# Social/Academic Networking
-#
-# Icon pack "fa" includes the following social network icons:
-#
-#   twitter, weibo, linkedin, github, facebook, pinterest, google-plus,
-#   youtube, instagram, soundcloud
-#
-#   For email icon, use "fa" icon pack, "envelope" icon, and
-#   "mailto:your@email.com" as the link.
-#
-#   Full list: https://fortawesome.github.io/Font-Awesome/icons/
-#
-# Icon pack "ai" includes the following academic network icons:
-#
-#   google-scholar, arxiv, orcid, researchgate, mendeley
-#
-#   Full list: https://jpswalsh.github.io/academicons/
-  
-
-
-  [[params.social]]
-  icon = "envelope"
-  icon_pack = "fa"
-  link = "mailto:simeon.lisovski@gmail.com"
-  cv = true
-
-  [[params.social]]
-  icon = "github"
-  icon_pack = "ai"
-  link = "http://www.github.com/slisovski"
-  cv = true
-
-  [[params.social]]
-  icon = "google-scholar"
-  icon_pack = "ai"
-  link = "https://scholar.google.ch/citations?user=3y8AwdsAAAAJ&hl=en&oi=ao"
-  cv = true
-
-  [[params.social]]
-  icon = "orcid"
-  icon_pack = "ai"
-  link = "https://orcid.org/0000-0002-6399-0035"
-  cv = true
-
-  [[params.social]]
-  icon = "twitter"
-  icon_pack = "ai"
-  link = "http://www.twitter.com/S_Lisovski"
-  cv = true
-
+logo = ""
 
 
 [outputs]
@@ -125,7 +74,7 @@ logo = "logo.png"
 
 # Configure BlackFriday Markdown rendering.
 [blackfriday]
-  hrefTargetBlank = true  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
+  hrefTargetBlank = false  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
 	angledQuotes = false
 	latexDashes = true
   extensions = ["backslashLineBreak"]

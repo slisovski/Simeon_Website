@@ -1,0 +1,38 @@
+/*  FOR WATERMARK  */
+
+/* to make "white bg" transparent */
+/* note: this means you need an odd number of widgets */
+/* or else #THECONTENT causes a white bar at the bottom */
+.home-section {
+  background-color: transparent;
+  z-index: 1;
+}
+
+#watermark{
+    background-size: 700px 350px;
+    background-repeat:no-repeat;
+    background-position:left top;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    pointer-events: none;
+    height: 100%;
+    width: 100%;
+    text-align: right;
+    opacity: 0.1;
+}
+
+
+/*  for CV WIDGET  */
+
+.sidebarpic{
+  /* sets max size  */
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*  */

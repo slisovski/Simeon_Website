@@ -51,8 +51,7 @@
   
 {{ $person_page.Content }}
 
-
-      <!--- Social media icons --->
+      <!---
       <ul class="network-icon" aria-hidden="true">
         {{ range $person.social }}
         {{ $pack := or .icon_pack "fas" }}
@@ -75,6 +74,28 @@
         </li>
         {{ end }}
       </ul>
+      --->
+
+
+
+      <!--- Social media icons --->
+      <div id="sl-moved-social-icons">
+      <ul class="social-icon" aria-hidden="true">
+        {{ range $person.social }}
+        {{ $pack := or .icon_pack "fas" }}
+        {{ $pack_prefix := $pack }}
+             {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+        {{ $pack_prefix = "fa" }}
+        {{ end }}
+        {{ $link := .link }}
+      <li>
+        <a itemprop="sameAs" href="{{ $link | safeURL }}" target="_blank">
+          <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} big-icon"></i>
+        </a>
+       </li>
+        {{ end }}
+      </ul>
+      </div>
 
 
 <!---
