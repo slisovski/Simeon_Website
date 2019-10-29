@@ -1,162 +1,20 @@
-/* links */
-a {
-  color: #A93226;
-  cursor: pointer;
+/* footer */
+
+#footer-rows{
+  padding-top: 0px;
+  padding-bottom: 35px;
 }
 
-a:active, 
-a:focus, 
-a:hover {
-  color: #A93226;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
 }
 
-/* nav */
-.navbar-light .navbar-nav>.nav-item>.nav-link,
-.navbar-light .navbar-nav>.nav-item>.nav-link:focus,
-.navbar-light .navbar-nav>.nav-item>.nav-link:hover,
-.navbar-light .navbar-nav>.nav-item>.nav-link:active {
-  font-weight: 700;
-}
-
-.navbar-light .navbar-nav > li.nav-item > a.active, 
-.navbar-light .navbar-nav > li.nav-item > a.active:focus, 
-.navbar-light .navbar-nav > li.nav-item > a.active:hover {
-  color: #A93226;
-  font-weight: 700;
-  transition: color .2s ease;
-}
-
-.navbar-light {
-  box-shadow: none;
-  text-transform: uppercase;
-  letter-spacing: .08em;
-}
-
-.navbar-nav {
-  border-bottom: 2px solid #A93226;
-}
-
-.navbar-brand {
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: .08em;
-}
-
-.navbar-light .navbar-brand:focus, 
-.navbar-light .navbar-brand:hover {
-  color: #A93226;
-}
-
-/* text */
-h1, h2, h3, h4, h5, h6 {
-  color: #333;
-  font-weight: 400;
-}
-
-body {
-  color: #333;
-  font-size: 0.9rem;
-}
-
-h1 {
-  font-size: 2rem;
-}
-
-
-/* this erases the margin-bottom for h1 */
-.home-section.wg-pages .section-heading h1 {
-  margin: 0 0 0 0;
-}
-
-/* this is the section subtitle */
-.home-section.wg-pages .section-heading p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
-  letter-spacing: .08em;
-}
-
-/* make dark even/odd sections same color so less stripey */
-
-.dark .home-section:nth-of-type(n) {
-	background-color: #282a36;
-}
-
-
-/* code */
-/* https://github.com/rstudio/blogdown/blob/master/docs/02-hugo.Rmd */
-
-pre {
-  border: 1px solid #fff;
-  box-shadow: 5px 5px 5px #eee;
-  padding: 0.25em;
-  background: #fff;
-  overflow-x: auto;
-  border-radius: 0px; /*undo rounded corners*/
-}
-
-pre code { 
-  background: none; 
-  font-size: 0.8rem;
-}
-
-code { 
-  color: #d03b39;
-  background: #fff;
-  font-size: 0.9em;
-}
-
-.hljs {
-	background: #fff;
-}
-
-
-/* alerts */
-
-div.alert-note > div:first-child::before {
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  color: #e13d3d;
-  content: "\f0a4";
-}
-
-div.alert-warning > div:first-child::before {
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  color: #e13d3d;
-  content: "\f1e2";
-}
-
-.alert-note {
-  color: #333;
-  background-color: #fff;
-  border-top: 2px solid #e13d3d;
-  border-radius: 0px; /*undo rounded corners*/
-  border-right-style: none;
-  border-bottom-style: none;
-  border-left-style: none;
-  padding: 23px 10px 21px 10px;
-}
-
-div.alert > div {
-  font-size: 0.85rem;
-}
-
-
-div.alert.alert-warning {
-  color: #d03b39;
-  background-color: #fdf4f4;
-  border-top: 2px solid #e13d3d;
-  border-radius: 0px; /*undo rounded corners*/
-  border-right-style: none;
-  border-bottom-style: none;
-  border-left-style: none;
-  padding: 23px 10px 21px 10px;
-}
 
 
 /* dark fixes */
-
 .dark .pagination li > a, .pagination li > span {
 	border: 1px solid #e13d3d;
 }
@@ -169,4 +27,36 @@ div.alert.alert-warning {
 .dark a:focus, 
 .dark a:hover {
 	color: #fff;
+}
+
+
+/* Watermark */
+
+/* to make "white bg" transparent */
+.home-section {
+  background-color: transparent;
+  z-index: 1;
+}
+
+#watermark{
+    background-size: 700px 350px;
+    background-repeat:no-repeat;
+    background-position:left top;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    pointer-events: none;
+    height: 120%;
+    width: 120%;
+    text-align: right;
+    opacity: 0.4;
+}
+
+
+.sidebarpic{
+  margin: auto;
+  width: 80%;
+  padding: 15px;
 }

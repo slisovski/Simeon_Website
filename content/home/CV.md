@@ -15,7 +15,7 @@ weight = 20
 cv_pdf = "./pdf/SL_CV.pdf"
 
 # Group Logo
-group_logo = "Chain.png"
+group_logo = "cv.svg"
 
 
 # List your academic interests.
@@ -65,7 +65,7 @@ group_logo = "Chain.png"
 
 +++
 
-**Simeon Lisovski** is a postdoctoral researcher at the department for bird migration at the Swiss Ornithological Insitute. His research focuses on how birds abd their migratory journeys are affected by climat change, habitat destruction and pothogens. He uses empirical as well as theoretical approaches to understand changes that happened in the recent past and to predict future szenarios.
+**Simeon Lisovski** is a postdoctoral researcher at the department for bird migration at the Swiss Ornithological Insitute. His research focuses on how birds and their migratory journeys are affected by climat change, habitat destruction and pathogens. He uses empirical as well as theoretical approaches to understand changes that happened in the recent past and to predict future szenarios.
 
 > Postdoc at Swiss Ornithological Institute, since 2018  
 > Postdoc at University of California, Davis, 2017 - 2018  

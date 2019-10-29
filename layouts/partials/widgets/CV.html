@@ -10,14 +10,6 @@
     {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
     {{ end }}
 
-    {{ if $page.Params.cv_pdf }}
-    <p>
-      <a class="btn btn-primary btn-outline btn-xs" href="{{ $page.Params.cv_pdf }}">
-        Download Complete CV
-      </a>
-      </p>
-    {{ end }}
-
     {{ if $page.Params.group_logo }}
     <p>
       <img class="sidebarpic" src="{{ $.Site.BaseURL }}img/{{ $page.Params.group_logo }}">
@@ -33,6 +25,16 @@
     {{ $page.Content }}
 
 
+    <!-- 
+    {{ if $page.Params.cv_pdf }}
+    <p>
+      <a class="btn btn-primary btn-outline btn-xs" href="{{ $page.Params.cv_pdf }}">
+        Download Complete CV
+      </a>
+      </p>
+    {{ end }}
+     -->
+    
     <!-- ADAPTED FROM about.html -->
     <div class="row" style="margin-bottom: 7px;">
 
@@ -87,6 +89,5 @@
 
 
   </div> <!-- col-xs-12 col-md-8 -->
-
 
 </div> <!-- row -->

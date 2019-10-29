@@ -1,25 +1,11 @@
 ---
 authors:
 - simeon
-bio: I am an ecologist ...
+bio: ""
 education:
   courses:
-  - course: PhD in Developmental Psychology & Quantitative Methods
-    institution: Vanderbilt University
-    year: 2008
-  - course: MSc in Developmental Psychology
-    institution: Vanderbilt University
-    year: 2005
-  - course: BSc in Applied Psychology
-    institution: Georgia Institute of Technology
-    year: 2002
 email: ""
 interests:
-- Data science / statistics
-- Data visualization
-- Literate programming
-- Education
-- Parenting
 name: Simeon Lisovski
 organizations:
 - name: Swiss Ornithological Institute
@@ -44,4 +30,5 @@ social:
 superuser: true
 ---
 
-I am an early-career scientist with special interest in empirical and theoretical research on bird migration and interactions with their biotic and abiotic environment. I’m interested in the (proximate) factors that shape migration, the individual fitness effects of particular migration strategies and how it subsequently affects population dynamics. Furthermore, I try to understand how climatic or human-driven changes along migratory routes may affect individual migration behaviours and fates. Currently, I am also working on the quantification of the potential of migrants to spread pathogens across large distances using a dynamic state dynamic modelling approach (stochastic dynamic modelling).
+
+I am an ecologist with special interest in empirical and theoretical research on bird migration and their interactions with the biotic and abiotic environment. I’m interested in the factors that shape migration, the individual fitness effects of particular migration strategies and how it subsequently affects population dynamics. At the moment, my major focus is on trying to understand how climatic or human-driven changes along migratory routes may affect individual migration behaviours and fates.

@@ -1,76 +1,78 @@
 +++
-# A Projects section created with the Portfolio widget.
-widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
+# Slider widget.
+widget   = "slider"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false # Activate this widget? true/false
-weight = 65  # Order that this section will appear.
+active   = true  # Activate this widget? true/false
+weight   = 15  # Order that this section will appear.
 
-title = "Projects"
-subtitle = ""
+# Slide interval.
+# Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).
+interval = 15000
 
-[content]
-  # Page type to display. E.g. project.
-  page_type = "project"
-  
-  # Filter toolbar (optional).
-  # Add or remove as many filters (`[[content.filter_button]]` instances) as you like.
-  # To show all items, set `tag` to "*".
-  # To filter by a specific tag, set `tag` to an existing tag name.
-  # To remove toolbar, delete/comment all instances of `[[content.filter_button]]` below.
-  
-  # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
-  filter_default = 0
-  
-  [[content.filter_button]]
-    name = "All"
-    tag = "*"
-  
-  [[content.filter_button]]
-    name = "Deep Learning"
-    tag = "Deep Learning"
-  
-  [[content.filter_button]]
-    name = "Other"
-    tag = "Demo"
+# Slide height (optional).
+# E.g. `500px` for 500 pixels or `calc(100vh - 70px)` for full screen.
+height = ""
 
-[design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "2"
+# Slides.
+# Duplicate an `[[item]]` block to add more slides.
 
-  # Toggle between the various page layout types.
-  #   1 = List
-  #   3 = Card
-  #   5 = Showcase
-  view = 3
+[[item]]
+  title = "Wader Migration in the East Asian-Australasian Flyway"
+  content = "<br/>"
+  align = "left"  # Choose `center`, `left`, or `right`.
 
-  # For Showcase view, flip alternate rows?
-  flip_alt_rows = false
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  # overlay_color = "#666"  # An HTML color value.
+  overlay_img = "projects/wadersNJ.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.1  # Darken the image. Value in range 0-1.
 
-[design.background]
-  # Apply a background color, gradient, or image.
-  #   Uncomment (by removing `#`) an option to apply it.
-  #   Choose a light or dark text color by setting `text_color_light`.
-  #   Any HTML color name or Hex value is valid.
-  
-  # Background color.
-  # color = "navy"
-  
-  # Background gradient.
-  # gradient_start = "DeepSkyBlue"
-  # gradient_end = "SkyBlue"
-  
-  # Background image.
-  # image = "background.jpg"  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  # Call to action button (optional).
+  #   Activate the button by specifying a URL and button label below.
+  #   Deactivate by commenting out parameters, prefixing lines with `#`.
+  cta_label = "Go to project site"
+  cta_url = "/projects"
+  # cta_icon_pack = "fas"
+  # cta_icon = ""
 
-  # Text color (true=light or false=dark).
-  # text_color_light = true  
+
+[[item]]
+  title = "Geolocation by light"
+  content = "<br/>"
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  # overlay_color = "#666"  # An HTML color value.
+  overlay_img = "projects/Rosefinch.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.1  # Darken the image. Value in range 0-1.
+
+  # Call to action button (optional).
+  #   Activate the button by specifying a URL and button label below.
+  #   Deactivate by commenting out parameters, prefixing lines with `#`.
+  cta_label = "Go to project site"
+  cta_url = "/projects"
+  # cta_icon_pack = "fas"
+  # cta_icon = ""
   
-[advanced]
- # Custom CSS. 
- css_style = ""
- 
- # CSS class.
- css_class = ""
+  
+[[item]]
+  title = "Seasonality<br/> in a changing world"
+  content = ""
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #  Deactivate an option by commenting out the line, prefixing it with `#`.
+  #  overlay_color = "#666"  # An HTML color value.
+  overlay_img = "projects/seas.png"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.1  # Darken the image. Value in range 0-1.
+
+  # Call to action button (optional).
+  #   Activate the button by specifying a URL and button label below.
+  #   Deactivate by commenting out parameters, prefixing lines with `#`.
+  cta_label = "Go to project site"
+  cta_url = "/projects"
+  # cta_icon_pack = "fas"
+  # cta_icon = ""
+  
 +++
-

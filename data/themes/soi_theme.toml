@@ -1,0 +1,20 @@
+# Theme metadata
+name = "soi_theme"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#F21A04" ## links
+primary_light = "#6ec6ff"
+primary_dark = "#0069c0"
+
+# Menu
+menu_primary = "rgba(213, 219, 219, 0.9)"
+menu_text = "#fff"
+menu_text_active = "#F21A04"
+menu_title = "#fff"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgba(243, 242, 242, 1)"
