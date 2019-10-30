@@ -14,10 +14,10 @@ publication_types = ["2"]
 publication = "Salewski V, Flade M, *Lisovski S*, Poluda A, Iliukha O, Kiljan G, ... and S Hahn (2019) Identifying migration routes and non-breeding staging sites of adult males of the globally threatened Aquatic Warbler _Acrocephalus paludicola_. _Bird Conservation International_."
 publication_short = "_Bird Conservation International_"
 image_preview = ""
-selected = true
+selected = false
 projects = []
 math = true
-highlight = true
+highlight = false
 abstract= "Birds that are long-distance migrants partition their annual cycle among a number of locations over a large spatial range. The conservation of these species is particularly complex because it requires attention to a number of different and distant habitats based on knowledge of migratory phenology, routes and staging areas. In the case of the globally threatened Aquatic Warbler Acrocephalus paludicola, a habitat specialist that breeds in Europe and spends the boreal winter in sub-Saharan Africa, non-breeding staging areas were widely unknown until recently. We applied light-level geolocators to adult male Aquatic Warblers at breeding sites in Belarus and Ukraine. Data from eight retrieved geolocators confirmed a south-west and then westward migration route through Europe via the northern Mediterranean with staging sites on the Iberian Peninsula and occasionally France and north-west Africa. In sub-Saharan Africa, final staging areas were in Mali, either in the Inner Niger Delta or at (presumably) small water bodies in the desert, with one bird most likely staying in the north of Ivory Coast south of the previously assumed range. The birds probably stayed in the final staging areas for most of the non-breeding season, but the logger on only one bird provided data throughout the entire migration cycle. Pre-nuptial migration of the latter was by a more easterly route than the southward migration. Our study suggests that conservation strategies for Aquatic Warbler north of the Sahara should include consideration of unknown staging sites in the northern Mediterranean as well as on the Iberian Peninsula and in north-west Africa. South of the Sahara, our study demonstrates the importance of the Sahel for the conservation of the Aquatic Warbler, including both the major floodplains of the Niger River and small Sahelian wetlands that are under pressure from human development."
   
 # Links (optional).

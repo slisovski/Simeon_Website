@@ -8,7 +8,6 @@ active = true
 weight = 50
 
 title = "Recent Publications"
-subtitle = "[List of all publications >>](publication/)"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.

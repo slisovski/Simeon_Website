@@ -14,10 +14,10 @@ publication_types = ["2"]
 publication = "*Lisovski S, Németh Z, Wingfield JC, Krause JS, Hobson KA, Seavy NS, ... and M Ramenofsky (2019). Migration pattern of Gambel’s White‑crowned Sparrow along the Pacifc Flyway. _Journal for Ornithology_,  1-11. "
 publication_short = "_Polar Biology_"
 image_preview = ""
-selected = true
+selected = false
 projects = []
 math = true
-highlight = true
+highlight = false
 abstract= "The light-mantled sooty albatross is a mediumsized albatross with a circumpolar distribution in the Southern Ocean. The known breeding sites are restricted to Islands in sub-Antarctic latitudes close to the Antarctic convergence between 46 and 53S. In the austral summer season 2008-2009 we discovered a new breeding colony with at least two confirmed and three probable nests at Fildes Peninsula, King George Island, South Shetland Islands, Antarctica (62,12S, 59,01W). The new breeding colony of lightmantled sooty albatross described here represents the southernmost breeding place of any albatross species ever recorded."
   
 # Links (optional).

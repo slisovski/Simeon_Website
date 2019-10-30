@@ -14,10 +14,10 @@ publication_types = ["2"]
 publication = "van Gils J, *Lisovski S* Lok T, Meissner W, Ożarowska A, de Fouw J, ... M Klaassen (2016) Body shrinkage due to Arctic warming reduces red knot fitness in tropical wintering range. _Science_. "
 publication_short = "_Science_"
 image_preview = ""
-selected = true
+selected = false
 projects = []
 math = true
-highlight = true
+highlight = false
 abstract= "Reductions in body size are increasingly being identified as a response to climate warming. Here we present evidence for a case of such body shrinkage, potentially due to malnutrition in early life. We show that an avian long-distance migrant (red knot, Calidris canutus canutus), which is experiencing globally unrivaled warming rates at its high-Arctic breeding grounds, produces smaller offspring with shorter bills during summers with early snowmelt. This has consequences half a world away at their tropical wintering grounds, where shorter-billed individuals have reduced survival rates. This is associated with these molluscivores eating fewer deeply buried bivalve prey and more shallowly buried seagrass rhizomes. We suggest that seasonal migrants can experience reduced fitness at one end of their range as a result of a changing climate at the other end."
   
 # Links (optional).

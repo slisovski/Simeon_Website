@@ -14,10 +14,10 @@ publication_types = ["2"]
 publication = "*Lisovski S*, Schmaljohann H, Bridge ES, Bauer S, Farnsworth A, Gauthreaux SA, ... and MB Wunder  (2018) Inherent limits of light-level geolocation may lead to over-interpretation. _Current Biology_. 28(5):R99-R100."
 publication_short = "_Current Biology_"
 image_preview = ""
-selected = true
+selected = false
 projects = []
 math = true
-highlight = true
+highlight = false
 abstract= "In their 2015 Current Biology paper, Streby et al. [1] reported that Golden-winged Warblers (Vermivora chrysoptera), which had just migrated to their breeding location in eastern Tennessee, performed a facultative and up to “>1,500 km roundtrip” to the Gulf of Mexico to avoid a severe tornadic storm. From light-level geolocator data, wherein geographical locations are estimated via the timing of sunrise and sunset, Streby et al. [1] concluded that the warblers had evacuated their breeding area approximately 24 hours before the storm and returned about five days later. The authors presented this finding as evidence that migratory birds avoid severe storms by temporarily moving long-distances. However, the tracking method employed by Streby et al. [1] is prone to considerable error and uncertainty. Here, we argue that this interpretation of the data oversteps the limits of the used tracking technique. By calculating the expected geographical error range for the tracked birds, we demonstrate that the hypothesized movements fell well within the geolocators’ inherent error range for this species and that such deviations in latitude occur frequently even if individuals remain stationary."
   
 # Links (optional).
