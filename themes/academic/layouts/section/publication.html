@@ -60,11 +60,11 @@
           {{ if eq $.Params.view 1 }}
             {{ partial "li_list" . }}
           {{ else if eq $.Params.view 3 }}
-            {{ partial "li_card" . }}
+            {{ partial "li_list" . }}
           {{ else if eq $.Params.view 4 }}
-            {{ partial "li_citation" . }}
+            {{ partial "li_list" . }}
           {{ else }}
-            {{ partial "li_compact" . }}
+            {{ partial "li_list" . }}
           {{ end }}
         </div>
 
