@@ -3,7 +3,7 @@ title: 'Mitigating conflicts between agriculture and migratory geese: is shootin
 authors:
 - "Silke Bauer"
 date: '2018-05-31'
-summary: Avian Infuenza spread by avian migrants
+summary: Research Summary
 image:
   caption: '_Flying white-fronted geese. © Helmut Kruckenberg_'
   focal_point: 'center'
