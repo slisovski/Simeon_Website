@@ -24,6 +24,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/slisovski
+- icon: publons
+  icon-pack: fab
+  link: https://publons.com/researcher/3193396/simeon-lisovski/
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/S_Lisovski
