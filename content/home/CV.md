@@ -22,8 +22,8 @@ group_logo = "cv.svg"
 [interests]
   interests = [
     "Bird Migration",
-    "Disease Ecology",
     "Global Change Biology",
+    "Disease Ecology",
     "Seasonality"
   ]
 
@@ -65,8 +65,7 @@ group_logo = "cv.svg"
 
 +++
 
-**Simeon Lisovski** is a postdoctoral researcher at the department for bird migration at the Swiss Ornithological Insitute. His research focuses on how birds and their migratory journeys are affected by climat change, habitat destruction and pathogens. He uses empirical as well as theoretical approaches to understand changes that happened in the recent past and to predict future szenarios.
-
-> Postdoc at Swiss Ornithological Institute, since 2018  
-> Postdoc at University of California, Davis, 2017 - 2018  
-> Postdoc at Deakin University, 2016 - 2017
+> Geo.X Young Academy Research Fellow and Postdoc at AIW, since 2020
+> Postdoc at Swiss Ornithological Institute, 2017 - 2019  
+> Postdoc at University of California Davis, 2016 - 20178  
+> Postdoc at Deakin University, 2015 - 2016

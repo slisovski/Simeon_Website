@@ -10,18 +10,19 @@ authors:
 superuser: false
 
 # Role/position
-role: Postdoc
+role: Geo.X Young Academy Research Fellow
 
 # Organizations/Affiliations
 organizations:
-- name: Swiss ornithological Institute
+- name: Alfred-Wegener-Institute for Polar and Marine Research
   url: "www.vogelwarte.ch"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: ""
 
 interests:
 - Bird Migration
+- Sesonal Changes
 - Wildlife Disease Dynamics
 - Ecological Modeling
 
@@ -76,4 +77,3 @@ user_groups:
 - Researchers
 ---
 
-I am an early-career scientist with special interest in empirical and theoretical research on bird migration and interactions with their biotic and abiotic environment. I’m interested in the (proximate) factors that shape migration, the individual fitness effects of particular migration strategies and how it subsequently affects population dynamics. Furthermore, I try to understand how climatic or human-driven changes along migratory routes may affect individual migration behaviours and fates. Currently, I am also working on the quantification of the potential of migrants to spread pathogens across large distances using a dynamic state dynamic modelling approach (stochastic dynamic modelling).

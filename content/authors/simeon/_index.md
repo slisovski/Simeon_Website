@@ -8,9 +8,9 @@ email: ""
 interests:
 name: Simeon Lisovski
 organizations:
-- name: Swiss Ornithological Institute
-  url: https://www.vogelwarte.ch
-role: Postdoctoral researcher
+- name: Alfred-Wegener-Institute for Polar and Marine Research
+  url: https://www.awi.de.ch
+role: Geo.X Young Academy Research Fellow
 social:
 - icon: paper-plane
   icon_pack: fas
@@ -33,5 +33,6 @@ social:
 superuser: true
 ---
 
+My major research interests are the migration of animals and factors that determine their routes, timing and ultimately the faith of individuals and their populations. I’m particularly interested in combining theoretical, experimental and observational studies to asses the consequences of global change on avian migrants and their communities. Furthermore, I study the impacts of pathogens on migratory birds and how infections may affect their strategies as well as their capacity to spread e.g. viruses across large distances.
 
-I am an ecologist with special interest in empirical and theoretical research on bird migration and their interactions with the biotic and abiotic environment. I’m interested in the factors that shape migration, the individual fitness effects of particular migration strategies and how it subsequently affects population dynamics. At the moment, my major focus is on trying to understand how climatic or human-driven changes along migratory routes may affect individual migration behaviours and fates.
+As a Geo.X Young Academy Research Fellow and a Postdoc at the Alfred-Wegener-Institut for Polar and Marine Research, I am looking at various, mostly remote sensed, data sources to extract indices of seasonal dynamics of the environment and quantify changes therein across the globe. In parallel, I aim to setup a field research project in the Lena Delta (Siberia) to validate the results and quantify the consequenses of phenological changes for Arctic ecosystem structure and function.
