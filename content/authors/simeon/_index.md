@@ -9,7 +9,7 @@ interests:
 name: Simeon Lisovski
 organizations:
 - name: Alfred-Wegener-Institute for Polar and Marine Research
-  url: https://www.awi.de.ch
+  url: https://www.awi.de
 role: Geo.X Young Academy Research Fellow
 social:
 - icon: paper-plane
@@ -33,6 +33,6 @@ social:
 superuser: true
 ---
 
-My major research interests are the migration of animals and factors that determine their routes, timing and ultimately the faith of individuals and their populations. I’m particularly interested in combining theoretical, experimental and observational studies to asses the consequences of global change on avian migrants and their communities. Furthermore, I study the impacts of pathogens on migratory birds and how infections may affect their strategies as well as their capacity to spread e.g. viruses across large distances.
+My major research interests are the migration of animals and factors that determine their routes, timing and ultimately the faith of individuals and their populations. I’m particularly interested in combining theoretical, experimental and observational studies to asses the consequences of pathogens and global change on avian migrants and their communities.
 
-As a Geo.X Young Academy Research Fellow and a Postdoc at the Alfred-Wegener-Institut for Polar and Marine Research, I am looking at various, mostly remote sensed, data sources to extract indices of seasonal dynamics of the environment and quantify changes therein across the globe. In parallel, I aim to setup a field research project in the Lena Delta (Siberia) to validate the results and quantify the consequenses of phenological changes for Arctic ecosystem structure and function.
+As a [Geo.X](https://www.geo-x.net/en/) Young Academy Research Fellow and a Postdoc at the Alfred-Wegener-Institut for Polar and Marine Research, I am working on topics related to seasonal dynamics and quantifications of changes across the globe. In parallel, I am starting a field campaign in eastern Siberia to validate the results and assess the consequenses of phenological changes for Arctic ecosystem structure and function.

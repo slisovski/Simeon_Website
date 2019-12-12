@@ -23,8 +23,7 @@ group_logo = "cv.svg"
   interests = [
     "Bird Migration",
     "Global Change Biology",
-    "Disease Ecology",
-    "Seasonality"
+    "Disease Ecology"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -56,16 +55,12 @@ group_logo = "cv.svg"
 # List your academic interests.
 # [service]
 #   service = [
-#     "Open House Committee (chair)",
-#     "Website Committee (chair)",
-#     "Graduate Diversity Committee",
-#     "[Graduate Student Mentor](https://gradmentors.ucr.edu)",
 #     "[Reviewer](https://publons.com/author/637273/)"
 #   ]
 
 +++
 
-> Geo.X Young Academy Research Fellow and Postdoc at AIW, since 2020
-> Postdoc at Swiss Ornithological Institute, 2017 - 2019  
-> Postdoc at University of California Davis, 2016 - 20178  
-> Postdoc at Deakin University, 2015 - 2016
+- Alfred-Wegener-Institute, since 2020
+- Swiss Ornithological Institute, 2017 - 2019  
+- University of California Davis, 2016 - 20178  
+- Deakin University, 2015 - 2016
