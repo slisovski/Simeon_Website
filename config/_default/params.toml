@@ -59,7 +59,7 @@ time_format = "3:04 PM"
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "simeon.lisovski@awi.de"
-address = "Alfred Wegener Institute, Telegrafenberg A43 (R209), 14473 Potsdam, Germany"
+address = "Alfred Wegener Institute<br> Telegrafenberg A43 (R209)<br> 14473 Potsdam, Germany"
 phone = "+49 (0)331 288-2152"
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = """Monday 10:00 to 13:00<br>
