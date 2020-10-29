@@ -39,6 +39,23 @@ enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+[params]
+email = "simeon.lisovski@awi.de"
+address = "Alfred Wegener Institute, Telegrafenberg A43 (R209), 14473 Potsdam, Germany"
+
+# To use Google Maps, set `map = 1` and enter your API key that can be obtained here:
+#   https://developers.google.com/maps/documentation/javascript/get-api-key
+# Map provider:
+#   0: No map
+#   1: Google Maps
+map = 1
+map_api_key = ""
+latitude = "33.9745"
+longitude = "-117.3254"
+zoom = 17
+      
+
+
 [outputs]
   home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
   section = [ "HTML", "RSS" ]
@@ -48,7 +65,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 
 [outputFormats.WebAppManifest]
   mediaType = "application/manifest+json"
-  rel = "manifest"
+  rel = "manifest" 
 
 # Configure BlackFriday Markdown rendering.
 # See: https://gohugo.io/getting-started/configuration/#configure-blackfriday

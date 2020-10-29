@@ -15,16 +15,17 @@ role: Geo.X Young Academy Research Fellow
 # Organizations/Affiliations
 organizations:
 - name: Alfred-Wegener-Institute for Polar and Marine Research
-  url: "www.vogelwarte.ch"
+  url: "www.awi.ch"
 
 # Short bio (displayed in user profile at end of posts)
 bio: ""
 
 interests:
 - Bird Migration
-- Sesonal Changes
-- Wildlife Disease Dynamics
+- Global Change Biology
+- Disease Ecology
 - Ecological Modeling
+
 
 education:
   courses:
@@ -48,7 +49,7 @@ social:
   link: "https://slisovski.netlify.com/"
 - icon: paper-plane
   icon_pack: fas
-  link: "mailto:simeon.lisovski@vogelwarte.ch"
+  link: "mailto:simeon.lisovski@awi.ch"
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0002-6399-0035
@@ -58,10 +59,14 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/slisovski
+- icon: researchgate
+  icon_pack: fab
+  link: https://www.researchgate.net/profile/Simeon_Lisovski
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/S_Lisovski
 superuser: true
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv

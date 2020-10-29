@@ -1,0 +1,61 @@
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $autolink := default true $page.Params.autolink }}
+
+<!-- Contact widget -->
+<div class="row">
+  <div class="col-xs-14 col-md-4 section-heading">
+
+    <a href="https://www.awi.de/">
+    <img src="img/AWI_Logo.png" style="float:left; width:60%; padding-top: 20px; padding-left: 20px">
+    </a>
+    <a href="https://www.helmholtz.de/">
+    <img src="img/Helmholtz_Logo.png" style="float:left; width:90%; padding-top: 5px;">
+    </a>
+  </div>
+  
+  
+  <div class="col-xs-10 col-md-8">
+    
+    <ul class="fa-ul" itemscope>
+
+      {{ with $.Site.Params.email }}
+      <li>
+      <i class="fa-li fa fa-envelope fa-1x" aria-hidden="true"></i>
+        <span id="person-email" itemprop="email">
+        {{- if $autolink }}<a href="mailto:">{{ . }}</a>{{ else }}{{ . }}{{ end -}}
+        </span>
+      </li>
+      {{ end }}
+      
+
+      {{ with $.Site.Params.phone }}
+      <li>
+        <i class="fa-li fa fa-phone fa-1x" aria-hidden="true"></i>
+        <span id="person-telephone" itemprop="telephone">
+        {{- if $autolink }}<a href="tel:{{ . }}">{{ . }}</a>{{ else }}{{ . }}{{ end -}}
+        </span>
+      </li>
+      {{ end }}
+      
+      {{ with $.Site.Params.address }}
+      <li>
+        <i class="fa-li fa fa-map-marker fa-1x" aria-hidden="true"></i>
+        <span id="person-address" itemprop="address">{{ replace . "\n" "<br>" | safeHTML }}</span>
+      </li>
+      {{ end }}
+      
+    {{ if $.Site.Params.engine }}
+    <div class="d-none">
+      <input id="map-provider" value="{{$.Site.Params.engine }}">
+      <input id="map-lat" value="{{ $.Site.Params.latitude}}">
+      <input id="map-lng" value="{{ $.Site.Params.longitude}}">
+      <input id="map-zoom" value="{{ $.Site.Params.zoom}}">
+      <input id="map-api-key" value="{{ $.Site.Params.api_key }}">
+    </div>
+    <div id="map"></div>
+    {{ end }}
+    </ul>
+
+  </div>
+</div>
